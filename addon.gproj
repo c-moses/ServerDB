@@ -1,0 +1,388 @@
+GameProject {
+ ID "ServerDB"
+ GUID "65056A2CB15ECD22"
+ TITLE "ServerDB"
+ Dependencies {
+  "58D0FB3206B6F859"
+ }
+ Configurations {
+  GameProjectConfig PC {
+   WidgetManagerSettings WidgetManagerSettings "{AC4BE58770485E02}" {
+    StringTables {
+     StringTableDefinition "{65092480AA1F9763}" {
+      StringTableSource "{9C952991276E432D}Language/Modded_localization.st"
+      Languages {
+       LanguageDefinition "{65092480A82A5251}" {
+        Code "cs_cz"
+        StringTableRuntime "{5265CE0CE6D128A2}Language/Modded_localization.cs_cz.conf"
+       }
+       LanguageDefinition "{65092480A82A538A}" {
+        Code "de_de"
+        StringTableRuntime "{871BD43FF5723982}Language/Modded_localization.de_de.conf"
+       }
+       LanguageDefinition "{65092480A82A53B4}" {
+        Code "en_us"
+        StringTableRuntime "{D9EB5E749F813C83}Language/Modded_localization.en_us.conf"
+       }
+       LanguageDefinition "{65092480A82A53A3}" {
+        Code "es_es"
+        StringTableRuntime "{1CA713FD7183579C}Language/Modded_localization.es_es.conf"
+       }
+       LanguageDefinition "{65092480A82A53CF}" {
+        Code "fr_fr"
+        StringTableRuntime "{A70FE6CA9700B49E}Language/Modded_localization.fr_fr.conf"
+       }
+       LanguageDefinition "{65092480A82A53F7}" {
+        Code "it_it"
+        StringTableRuntime "{271369FE3A223767}Language/Modded_localization.it_it.conf"
+       }
+       LanguageDefinition "{65092480A82A531A}" {
+        Code "ja_jp"
+        StringTableRuntime "{3708D46C045307CC}Language/Modded_localization.ja_jp.conf"
+       }
+       LanguageDefinition "{65092480A82A5308}" {
+        Code "ko_kr"
+        StringTableRuntime "{97B6FCC0977E04F3}Language/Modded_localization.ko_kr.conf"
+       }
+       LanguageDefinition "{65092480A82A5335}" {
+        Code "pl_pl"
+        StringTableRuntime "{CBC75A3A2991988F}Language/Modded_localization.pl_pl.conf"
+       }
+       LanguageDefinition "{65092480A82A535D}" {
+        Code "pt_br"
+        StringTableRuntime "{1EB0C0F6126F5235}Language/Modded_localization.pt_br.conf"
+       }
+       LanguageDefinition "{65092480A82A5348}" {
+        Code "ru_ru"
+        StringTableRuntime "{4BF1D45E8F163743}Language/Modded_localization.ru_ru.conf"
+       }
+       LanguageDefinition "{65092480A82A503D}" {
+        Code "uk_ua"
+        StringTableRuntime "{C1A981A8E3388916}Language/Modded_localization.uk_ua.conf"
+       }
+       LanguageDefinition "{65092480A82A502A}" {
+        Code "zh_cn"
+        StringTableRuntime "{1B19EF95DA98590B}Language/Modded_localization.zh_cn.conf"
+       }
+      }
+     }
+    }
+   }
+  }
+  GameProjectConfig XBOX_ONE {
+   WidgetManagerSettings WidgetManagerSettings "{AC4BE58770485E02}" {
+    StringTables {
+     StringTableDefinition "{650943C4D638F06A}" {
+      StringTableSource "{9C952991276E432D}Language/Modded_localization.st"
+      Languages {
+       LanguageDefinition "{650943C4D431316F}" {
+        Code "cs_cz"
+        StringTableRuntime "{5265CE0CE6D128A2}Language/Modded_localization.cs_cz.conf"
+       }
+       LanguageDefinition "{650943C4D43136AA}" {
+        Code "de_de"
+        StringTableRuntime "{871BD43FF5723982}Language/Modded_localization.de_de.conf"
+       }
+       LanguageDefinition "{650943C4D43136D6}" {
+        Code "en_us"
+        StringTableRuntime "{D9EB5E749F813C83}Language/Modded_localization.en_us.conf"
+       }
+       LanguageDefinition "{650943C4D43136C7}" {
+        Code "es_es"
+        StringTableRuntime "{1CA713FD7183579C}Language/Modded_localization.es_es.conf"
+       }
+       LanguageDefinition "{650943C4D43136F6}" {
+        Code "fr_fr"
+        StringTableRuntime "{A70FE6CA9700B49E}Language/Modded_localization.fr_fr.conf"
+       }
+       LanguageDefinition "{650943C4D43136E3}" {
+        Code "it_it"
+        StringTableRuntime "{271369FE3A223767}Language/Modded_localization.it_it.conf"
+       }
+       LanguageDefinition "{650943C4D4313614}" {
+        Code "ja_jp"
+        StringTableRuntime "{3708D46C045307CC}Language/Modded_localization.ja_jp.conf"
+       }
+       LanguageDefinition "{650943C4D4313606}" {
+        Code "ko_kr"
+        StringTableRuntime "{97B6FCC0977E04F3}Language/Modded_localization.ko_kr.conf"
+       }
+       LanguageDefinition "{650943C4D4313635}" {
+        Code "pl_pl"
+        StringTableRuntime "{CBC75A3A2991988F}Language/Modded_localization.pl_pl.conf"
+       }
+       LanguageDefinition "{650943C4D431366A}" {
+        Code "pt_br"
+        StringTableRuntime "{1EB0C0F6126F5235}Language/Modded_localization.pt_br.conf"
+       }
+       LanguageDefinition "{650943C4D4313794}" {
+        Code "ru_ru"
+        StringTableRuntime "{4BF1D45E8F163743}Language/Modded_localization.ru_ru.conf"
+       }
+       LanguageDefinition "{650943C4D4313750}" {
+        Code "uk_ua"
+        StringTableRuntime "{C1A981A8E3388916}Language/Modded_localization.uk_ua.conf"
+       }
+       LanguageDefinition "{650943C4D4313740}" {
+        Code "zh_cn"
+        StringTableRuntime "{1B19EF95DA98590B}Language/Modded_localization.zh_cn.conf"
+       }
+      }
+     }
+    }
+   }
+  }
+  GameProjectConfig XBOX_SERIES {
+   WidgetManagerSettings WidgetManagerSettings "{AC4BE58770485E02}" {
+    StringTables {
+     StringTableDefinition "{650943C4CF629DEA}" {
+      StringTableSource "{9C952991276E432D}Language/Modded_localization.st"
+      Languages {
+       LanguageDefinition "{650943C4CDEEDB27}" {
+        Code "cs_cz"
+        StringTableRuntime "{5265CE0CE6D128A2}Language/Modded_localization.cs_cz.conf"
+       }
+       LanguageDefinition "{650943C4CDEEDB66}" {
+        Code "de_de"
+        StringTableRuntime "{871BD43FF5723982}Language/Modded_localization.de_de.conf"
+       }
+       LanguageDefinition "{650943C4CDEED894}" {
+        Code "en_us"
+        StringTableRuntime "{D9EB5E749F813C83}Language/Modded_localization.en_us.conf"
+       }
+       LanguageDefinition "{650943C4CDEED881}" {
+        Code "es_es"
+        StringTableRuntime "{1CA713FD7183579C}Language/Modded_localization.es_es.conf"
+       }
+       LanguageDefinition "{650943C4CDEED8AD}" {
+        Code "fr_fr"
+        StringTableRuntime "{A70FE6CA9700B49E}Language/Modded_localization.fr_fr.conf"
+       }
+       LanguageDefinition "{650943C4CDEED8D5}" {
+        Code "it_it"
+        StringTableRuntime "{271369FE3A223767}Language/Modded_localization.it_it.conf"
+       }
+       LanguageDefinition "{650943C4CDEED8C3}" {
+        Code "ja_jp"
+        StringTableRuntime "{3708D46C045307CC}Language/Modded_localization.ja_jp.conf"
+       }
+       LanguageDefinition "{650943C4CDEED8F2}" {
+        Code "ko_kr"
+        StringTableRuntime "{97B6FCC0977E04F3}Language/Modded_localization.ko_kr.conf"
+       }
+       LanguageDefinition "{650943C4CDEED8E2}" {
+        Code "pl_pl"
+        StringTableRuntime "{CBC75A3A2991988F}Language/Modded_localization.pl_pl.conf"
+       }
+       LanguageDefinition "{650943C4CDEED811}" {
+        Code "pt_br"
+        StringTableRuntime "{1EB0C0F6126F5235}Language/Modded_localization.pt_br.conf"
+       }
+       LanguageDefinition "{650943C4CDEED83E}" {
+        Code "ru_ru"
+        StringTableRuntime "{4BF1D45E8F163743}Language/Modded_localization.ru_ru.conf"
+       }
+       LanguageDefinition "{650943C4CDEED91E}" {
+        Code "uk_ua"
+        StringTableRuntime "{C1A981A8E3388916}Language/Modded_localization.uk_ua.conf"
+       }
+       LanguageDefinition "{650943C4CDEED90B}" {
+        Code "zh_cn"
+        StringTableRuntime "{1B19EF95DA98590B}Language/Modded_localization.zh_cn.conf"
+       }
+      }
+     }
+    }
+   }
+  }
+  GameProjectConfig PS4 {
+   WidgetManagerSettings WidgetManagerSettings "{AC4BE58770485E02}" {
+    StringTables {
+     StringTableDefinition "{650943C4C6F73B13}" {
+      StringTableSource "{9C952991276E432D}Language/Modded_localization.st"
+      Languages {
+       LanguageDefinition "{650943C4C43B4904}" {
+        Code "cs_cz"
+        StringTableRuntime "{5265CE0CE6D128A2}Language/Modded_localization.cs_cz.conf"
+       }
+       LanguageDefinition "{650943C4C43B494C}" {
+        Code "de_de"
+        StringTableRuntime "{871BD43FF5723982}Language/Modded_localization.de_de.conf"
+       }
+       LanguageDefinition "{650943C4C43B4977}" {
+        Code "en_us"
+        StringTableRuntime "{D9EB5E749F813C83}Language/Modded_localization.en_us.conf"
+       }
+       LanguageDefinition "{650943C4C43B4965}" {
+        Code "es_es"
+        StringTableRuntime "{1CA713FD7183579C}Language/Modded_localization.es_es.conf"
+       }
+       LanguageDefinition "{650943C4C43B4E91}" {
+        Code "fr_fr"
+        StringTableRuntime "{A70FE6CA9700B49E}Language/Modded_localization.fr_fr.conf"
+       }
+       LanguageDefinition "{650943C4C43B4EBC}" {
+        Code "it_it"
+        StringTableRuntime "{271369FE3A223767}Language/Modded_localization.it_it.conf"
+       }
+       LanguageDefinition "{650943C4C43B4EAB}" {
+        Code "ja_jp"
+        StringTableRuntime "{3708D46C045307CC}Language/Modded_localization.ja_jp.conf"
+       }
+       LanguageDefinition "{650943C4C43B4EDC}" {
+        Code "ko_kr"
+        StringTableRuntime "{97B6FCC0977E04F3}Language/Modded_localization.ko_kr.conf"
+       }
+       LanguageDefinition "{650943C4C43B4ECD}" {
+        Code "pl_pl"
+        StringTableRuntime "{CBC75A3A2991988F}Language/Modded_localization.pl_pl.conf"
+       }
+       LanguageDefinition "{650943C4C43B4EFF}" {
+        Code "pt_br"
+        StringTableRuntime "{1EB0C0F6126F5235}Language/Modded_localization.pt_br.conf"
+       }
+       LanguageDefinition "{650943C4C43B4EED}" {
+        Code "ru_ru"
+        StringTableRuntime "{4BF1D45E8F163743}Language/Modded_localization.ru_ru.conf"
+       }
+       LanguageDefinition "{650943C4C43B4FA5}" {
+        Code "uk_ua"
+        StringTableRuntime "{C1A981A8E3388916}Language/Modded_localization.uk_ua.conf"
+       }
+       LanguageDefinition "{650943C4C43B4FD3}" {
+        Code "zh_cn"
+        StringTableRuntime "{1B19EF95DA98590B}Language/Modded_localization.zh_cn.conf"
+       }
+      }
+     }
+    }
+   }
+  }
+  GameProjectConfig PS5 {
+   WidgetManagerSettings WidgetManagerSettings "{AC4BE58770485E02}" {
+    StringTables {
+     StringTableDefinition "{650943C43E680E8D}" {
+      StringTableSource "{9C952991276E432D}Language/Modded_localization.st"
+      Languages {
+       LanguageDefinition "{650943C43C51B437}" {
+        Code "cs_cz"
+        StringTableRuntime "{5265CE0CE6D128A2}Language/Modded_localization.cs_cz.conf"
+       }
+       LanguageDefinition "{650943C43C51B46A}" {
+        Code "de_de"
+        StringTableRuntime "{871BD43FF5723982}Language/Modded_localization.de_de.conf"
+       }
+       LanguageDefinition "{650943C43C51B592}" {
+        Code "en_us"
+        StringTableRuntime "{D9EB5E749F813C83}Language/Modded_localization.en_us.conf"
+       }
+       LanguageDefinition "{650943C43C51B5B8}" {
+        Code "es_es"
+        StringTableRuntime "{1CA713FD7183579C}Language/Modded_localization.es_es.conf"
+       }
+       LanguageDefinition "{650943C43C51B5A3}" {
+        Code "fr_fr"
+        StringTableRuntime "{A70FE6CA9700B49E}Language/Modded_localization.fr_fr.conf"
+       }
+       LanguageDefinition "{650943C43C51B5C8}" {
+        Code "it_it"
+        StringTableRuntime "{271369FE3A223767}Language/Modded_localization.it_it.conf"
+       }
+       LanguageDefinition "{650943C43C51B5F2}" {
+        Code "ja_jp"
+        StringTableRuntime "{3708D46C045307CC}Language/Modded_localization.ja_jp.conf"
+       }
+       LanguageDefinition "{650943C43C51B5E1}" {
+        Code "ko_kr"
+        StringTableRuntime "{97B6FCC0977E04F3}Language/Modded_localization.ko_kr.conf"
+       }
+       LanguageDefinition "{650943C43C51B50A}" {
+        Code "pl_pl"
+        StringTableRuntime "{CBC75A3A2991988F}Language/Modded_localization.pl_pl.conf"
+       }
+       LanguageDefinition "{650943C43C51B534}" {
+        Code "pt_br"
+        StringTableRuntime "{1EB0C0F6126F5235}Language/Modded_localization.pt_br.conf"
+       }
+       LanguageDefinition "{650943C43C51B556}" {
+        Code "ru_ru"
+        StringTableRuntime "{4BF1D45E8F163743}Language/Modded_localization.ru_ru.conf"
+       }
+       LanguageDefinition "{650943C43C51BA78}" {
+        Code "uk_ua"
+        StringTableRuntime "{C1A981A8E3388916}Language/Modded_localization.uk_ua.conf"
+       }
+       LanguageDefinition "{650943C43C51BB9F}" {
+        Code "zh_cn"
+        StringTableRuntime "{1B19EF95DA98590B}Language/Modded_localization.zh_cn.conf"
+       }
+      }
+     }
+    }
+   }
+  }
+  GameProjectConfig HEADLESS {
+   WidgetManagerSettings WidgetManagerSettings "{AC4BE58770485E02}" {
+    StringTables {
+     StringTableDefinition "{650942E9DA531DAC}" {
+      StringTableSource "{9C952991276E432D}Language/Modded_localization.st"
+      Languages {
+       LanguageDefinition "{650942E9D849654A}" {
+        Code "cs_cz"
+        StringTableRuntime "{5265CE0CE6D128A2}Language/Modded_localization.cs_cz.conf"
+       }
+       LanguageDefinition "{650942E9D8496A81}" {
+        Code "de_de"
+        StringTableRuntime "{871BD43FF5723982}Language/Modded_localization.de_de.conf"
+       }
+       LanguageDefinition "{650942E9D8496AA4}" {
+        Code "en_us"
+        StringTableRuntime "{D9EB5E749F813C83}Language/Modded_localization.en_us.conf"
+       }
+       LanguageDefinition "{650942E9D8496ACE}" {
+        Code "es_es"
+        StringTableRuntime "{1CA713FD7183579C}Language/Modded_localization.es_es.conf"
+       }
+       LanguageDefinition "{650942E9D8496AFE}" {
+        Code "fr_fr"
+        StringTableRuntime "{A70FE6CA9700B49E}Language/Modded_localization.fr_fr.conf"
+       }
+       LanguageDefinition "{650942E9D8496AE1}" {
+        Code "it_it"
+        StringTableRuntime "{271369FE3A223767}Language/Modded_localization.it_it.conf"
+       }
+       LanguageDefinition "{650942E9D8496A10}" {
+        Code "ja_jp"
+        StringTableRuntime "{3708D46C045307CC}Language/Modded_localization.ja_jp.conf"
+       }
+       LanguageDefinition "{650942E9D8496A3F}" {
+        Code "ko_kr"
+        StringTableRuntime "{97B6FCC0977E04F3}Language/Modded_localization.ko_kr.conf"
+       }
+       LanguageDefinition "{650942E9D8496A2C}" {
+        Code "pl_pl"
+        StringTableRuntime "{CBC75A3A2991988F}Language/Modded_localization.pl_pl.conf"
+       }
+       LanguageDefinition "{650942E9D8496A5B}" {
+        Code "pt_br"
+        StringTableRuntime "{1EB0C0F6126F5235}Language/Modded_localization.pt_br.conf"
+       }
+       LanguageDefinition "{650942E9D8496A4B}" {
+        Code "ru_ru"
+        StringTableRuntime "{4BF1D45E8F163743}Language/Modded_localization.ru_ru.conf"
+       }
+       LanguageDefinition "{650942E9D8496B3B}" {
+        Code "uk_ua"
+        StringTableRuntime "{C1A981A8E3388916}Language/Modded_localization.uk_ua.conf"
+       }
+       LanguageDefinition "{650942E9D8496B2B}" {
+        Code "zh_cn"
+        StringTableRuntime "{1B19EF95DA98590B}Language/Modded_localization.zh_cn.conf"
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+}
